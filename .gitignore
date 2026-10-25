@@ -1,0 +1,14 @@
+# Binarios locales de compilacion (los oficiales van en dist/)
+output/
+proyecto2
+*.o
+*.exe
+!dist/*.exe
+
+# Archivos temporales que crea el programa al ejecutarse
+*.tmp
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
