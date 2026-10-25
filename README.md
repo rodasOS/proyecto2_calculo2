@@ -11,6 +11,26 @@ Todo el codigo esta en un solo archivo, [`main.cpp`](main.cpp). El enunciado est
 
 ---
 
+## Demostracion
+
+**[Ver el video de demostracion](evidencias/video_demostracion.mp4)** (60 segundos): el menu, el Triangulo Astromash y la ventana 3D girando con teclado y mouse.
+
+### Capturas
+
+**Menu y Triangulo Astromash (7 filas)**
+
+![Menu y Triangulo Astromash](evidencias/captura_1_menu_y_triangulo.png)
+
+**Puntos P(1,1,1), Q(2,2,2) y R(3,3,3) en la ventana 3D**
+
+![Puntos P, Q y R en 3D](evidencias/captura_2_puntos_PQR_en_3d.png)
+
+**Figura cerrada de 4 puntos: P(0,0,0), Q(3,0,0), R(3,3,0) y S(0,3,4)**
+
+![Figura cerrada de 4 puntos en 3D](evidencias/captura_3_figura_cerrada_en_3d.png)
+
+---
+
 ## Ejecutar sin compilar (binarios listos)
 
 Los ejecutables ya compilados estan en la carpeta [`dist/`](dist). No hay que instalar nada.
@@ -159,9 +179,15 @@ Regla: las tres primeras filas son `1`, `2 2` y `5 4 5`. Desde la cuarta, cada e
 ├── main.cpp                 # Todo el codigo del proyecto
 ├── PROYECTO 2.pdf           # Enunciado
 ├── README.md
-└── dist/
-    ├── proyecto2-linux          # Ejecutable para Linux x86-64
-    └── proyecto2-windows.exe    # Ejecutable para Windows 64 bits
+├── .gitignore
+├── dist/
+│   ├── proyecto2-linux          # Ejecutable para Linux x86-64
+│   └── proyecto2-windows.exe    # Ejecutable para Windows 64 bits
+└── evidencias/
+    ├── video_demostracion.mp4                 # Video del programa funcionando
+    ├── captura_1_menu_y_triangulo.png
+    ├── captura_2_puntos_PQR_en_3d.png
+    └── captura_3_figura_cerrada_en_3d.png
 ```
 
 Los binarios de `dist/` se compilaron con raylib 5.5 enlazada dentro del ejecutable.
